@@ -39,7 +39,30 @@ h2:before{
     display:none;
 }
 
+.image{
+    position:absolute;
+    left:9%;
+    top:29%;
+}
+.header{
+    display:inline;
+}
 .liste {
     font-weight:bold;
 }
 
+
+@media screen and (max-width:500px){
+    .image{
+        position:absolute;
+        top:18%;
+        left:4%;
+    }
+    .header{
+        display:block;
+        
+        margin:0;
+    }
+
+    
+}
