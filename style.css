@@ -30,6 +30,16 @@ h2:before{
   #465298 20px
 );
 }
+
+.paragrapheNoir{
+    border-radius:25px;
+    border:2px solid red;
+}
 .entry .entry-title:before {
     display:none;
 }
+
+.liste {
+    font-weight:bold;
+}
+
