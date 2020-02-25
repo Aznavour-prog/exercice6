@@ -22,6 +22,11 @@ header {
   background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
 }
 
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
 .paragrapheNoir {
   border-radius: 25px;
   border: 2px solid red;
