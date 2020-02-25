@@ -26,4 +26,71 @@ header {
   border-radius: 25px;
   border: 2px solid red;
 }
+
+.animBloc1 {
+  padding: 3%;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  -webkit-animation: animBlocNum1;
+          animation: animBlocNum1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+.animBloc2 {
+  padding: 3%;
+  text-align: center;
+  -webkit-animation: animBlocNum2;
+          animation: animBlocNum2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes animBlocNum1 {
+  from {
+    -webkit-transform: translateX(1500px);
+            transform: translateX(1500px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes animBlocNum1 {
+  from {
+    -webkit-transform: translateX(1500px);
+            transform: translateX(1500px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes animBlocNum2 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@keyframes animBlocNum2 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
 /*# sourceMappingURL=style.css.map */
