@@ -13,17 +13,9 @@
 */
 header {
   border-radius: 25px;
-  background-color: black;
-  color: white;
-  padding: 5%;
 }
 
 .rayure {
   background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
-}
-
-.paragrapheNoir {
-  border-radius: 25px;
-  border: 2px solid red;
 }
 /*# sourceMappingURL=style.css.map */
